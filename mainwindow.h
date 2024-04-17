@@ -32,6 +32,7 @@ private:
 private slots:
   void onButtonClicked();
   void onCountdownTimeout();
+  void showAboutDialog();
 
 };
 #endif // MAINWINDOW_H

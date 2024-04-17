@@ -2,11 +2,11 @@
   "buildCommand" : {
     "command" : "build",
     "skipDependencies" : false,
-    "style" : "buildAndRun"
+    "style" : "buildOnly"
   },
   "configuredTargets" : [
     {
-      "guid" : "a0f3f49c68c60386d59fc8281ce795c1310f60cfede09ac886f43540ac726127"
+      "guid" : "a0f3f49c68c60386d59fc8281ce795c102e4378357863125eecad08d683bddca"
     }
   ],
   "containerPath" : "/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/key_input_tool.xcodeproj",

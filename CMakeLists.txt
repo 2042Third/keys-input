@@ -19,7 +19,9 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
-#        ${TS_FILES}
+    other/aboutDialog.cpp
+    other/aboutDialog.h
+    #        ${TS_FILES}
 
 )
 
