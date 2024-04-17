@@ -20,7 +20,25 @@ set(PROJECT_SOURCES
         mainwindow.h
         mainwindow.ui
         ${TS_FILES}
+    keyPress/keyPressMac.cpp
+    keyPress/keyPressMac.h
 )
+
+# Add keyPressWin.cpp and keyPressWin.h to the project if is windows
+if(WIN32)
+    list(APPEND PROJECT_SOURCES
+        keyPress/keyPressWin.cpp
+        keyPress/keyPressWin.h
+    )
+endif()
+# Add keyPressMac.cpp and keyPressMac.h to the project if is mac
+if(APPLE)
+    list(APPEND PROJECT_SOURCES
+        keyPress/keyPressMac.cpp
+        keyPress/keyPressMac.h
+    )
+endif()
+
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(key_input_tool
@@ -32,7 +50,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
 #                 ${CMAKE_CURRENT_SOURCE_DIR}/android)
 # For more information, see https://doc.qt.io/qt-6/qt-add-executable.html#target-creation
 
-    qt_create_translation(QM_FILES ${CMAKE_SOURCE_DIR} ${TS_FILES})
+#    qt_create_translation(QM_FILES ${CMAKE_SOURCE_DIR} ${TS_FILES})
 else()
     if(ANDROID)
         add_library(key_input_tool SHARED
@@ -50,6 +68,10 @@ else()
 endif()
 
 target_link_libraries(key_input_tool PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+
+if(APPLE)
+    target_link_libraries(key_input_tool PRIVATE "-framework ApplicationServices")
+endif()
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an
