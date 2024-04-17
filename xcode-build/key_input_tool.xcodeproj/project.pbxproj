@@ -1,0 +1,1195 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0120DCAEF7514B89B6290F75 /* key_input_tool_autogen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 519588FE9E574CCAA7A460FF /* Build configuration list for PBXAggregateTarget "key_input_tool_autogen" */;
+			buildPhases = (
+				15E7FC948932F1D350A79787 /* Generate CMakeFiles/key_input_tool_autogen */,
+			);
+			dependencies = (
+				725E226E76274611A9479C1A /* PBXTargetDependency */,
+			);
+			name = key_input_tool_autogen;
+			productName = key_input_tool_autogen;
+		};
+		99229E238F0B462B85E7569B /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0C839363872649648CEDAAAB /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				437A2EC3E6B74EFCAF06ABDF /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		C4C93135707442F8BBF15563 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 472C874F76884CAFB29B2F37 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				D9DB54359481215D5E0E6CCC /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		F5B3780C9270491888759BD2 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 89A36262AA6B4927B7EDA63C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				3B618E4035D5AC01EF81344D /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				F12BD8A30ABA4EE3AD180AD4 /* PBXTargetDependency */,
+				A24283BBBDDB4D578E0B354D /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0E3A26E775F847C8A7939793 /* mainwindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7EA0134113464F7093AADBAF /* mainwindow.cpp */; };
+		560F51ABD725498DA588BD9F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E56526E5C9C448E5B8976B50 /* main.cpp */; };
+		5848FB458F7242428BBB566F /* keyPressMac.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE483A7DB29C4FBFB3B330E0 /* keyPressMac.cpp */; };
+		F04C294EEFD64BF094FB358F /* mocs_compilation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2C4DCA0ED3FF49CEBBB2357C /* mocs_compilation.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B049E04A0954FC78F4B8C81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56B44A3728A9431F852A03C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5B3780C9270491888759BD2;
+			remoteInfo = ALL_BUILD;
+		};
+		3E5E209F084E4983B8EC6C06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56B44A3728A9431F852A03C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0120DCAEF7514B89B6290F75;
+			remoteInfo = key_input_tool_autogen;
+		};
+		5447A3C06EB4458D96CAD798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56B44A3728A9431F852A03C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4C93135707442F8BBF15563;
+			remoteInfo = ZERO_CHECK;
+		};
+		972065F04AA3482ABDC76304 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56B44A3728A9431F852A03C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5BC6BEB3EAE49C4B4603128;
+			remoteInfo = key_input_tool;
+		};
+		D88D95594B4C4BF9A7401F03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56B44A3728A9431F852A03C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4C93135707442F8BBF15563;
+			remoteInfo = ZERO_CHECK;
+		};
+		DB2F93B0833F4269BD3EE424 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56B44A3728A9431F852A03C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4C93135707442F8BBF15563;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15F091B756444054BAF9B3A8 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2C4DCA0ED3FF49CEBBB2357C /* mocs_compilation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = mocs_compilation.cpp; path = "xcode-build/key_input_tool_autogen/mocs_compilation.cpp"; sourceTree = SOURCE_ROOT; };
+		4D4D27D6298E475EB232700D /* ui_mainwindow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ui_mainwindow.h; path = "xcode-build/key_input_tool_autogen/include/ui_mainwindow.h"; sourceTree = SOURCE_ROOT; };
+		675B4C9AB31447318268BC6E /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		72AC481C67EA467FAC15F330 /* mainwindow.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = mainwindow.h; sourceTree = SOURCE_ROOT; };
+		7EA0134113464F7093AADBAF /* mainwindow.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = mainwindow.cpp; sourceTree = SOURCE_ROOT; };
+		96104CEC3B2C4DB8A9B8475E /* key_input_tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = key_input_tool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FC088E9D714E22833890B7 /* mainwindow.ui */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; path = mainwindow.ui; sourceTree = SOURCE_ROOT; };
+		CE483A7DB29C4FBFB3B330E0 /* keyPressMac.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = keyPressMac.cpp; path = keyPress/keyPressMac.cpp; sourceTree = SOURCE_ROOT; };
+		DA212468D6B3485D9F16B4CE /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E21BB3A0D01848A788F7E283 /* keyPressMac.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = keyPressMac.h; path = keyPress/keyPressMac.h; sourceTree = SOURCE_ROOT; };
+		E56526E5C9C448E5B8976B50 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		EA44412DBCD549EE93CF7E0A /* Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "xcode-build/CMakeFiles/key_input_tool.dir/Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6540DA47255940E292B38265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		067C8721399240A1BC44E726 /* key_input_tool_autogen */ = {
+			isa = PBXGroup;
+			children = (
+				1380E7084F304E4EB5AA5153 /* CMake Rules */,
+				DA212468D6B3485D9F16B4CE /* CMakeLists.txt */,
+			);
+			name = key_input_tool_autogen;
+			sourceTree = "<group>";
+		};
+		08A0AC6C89154A618B105455 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EA44412DBCD549EE93CF7E0A /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0FAE2D056E98414FBDA5473B /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				F736F8520CA94049B8502053 /* CMake Rules */,
+				675B4C9AB31447318268BC6E /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		1380E7084F304E4EB5AA5153 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A0575393CF0143FDB2DD4DC1 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE483A7DB29C4FBFB3B330E0 /* keyPressMac.cpp */,
+				E56526E5C9C448E5B8976B50 /* main.cpp */,
+				7EA0134113464F7093AADBAF /* mainwindow.cpp */,
+				2C4DCA0ED3FF49CEBBB2357C /* mocs_compilation.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		AEE18A1FA67240EA99120418 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				E21BB3A0D01848A788F7E283 /* keyPressMac.h */,
+				72AC481C67EA467FAC15F330 /* mainwindow.h */,
+				4D4D27D6298E475EB232700D /* ui_mainwindow.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		B0434B4907B54A118E43DF81 /* key_input_tool */ = {
+			isa = PBXGroup;
+			children = (
+				A0575393CF0143FDB2DD4DC1 /* Source Files */,
+				AEE18A1FA67240EA99120418 /* Header Files */,
+				08A0AC6C89154A618B105455 /* Resources */,
+				15F091B756444054BAF9B3A8 /* CMakeLists.txt */,
+				A6FC088E9D714E22833890B7 /* mainwindow.ui */,
+			);
+			name = key_input_tool;
+			sourceTree = "<group>";
+		};
+		CB75D948562745D79A76C0DF = {
+			isa = PBXGroup;
+			children = (
+				B0434B4907B54A118E43DF81 /* key_input_tool */,
+				067C8721399240A1BC44E726 /* key_input_tool_autogen */,
+				0FAE2D056E98414FBDA5473B /* ALL_BUILD */,
+				DFAAE445A1EE4469935D8CB9 /* Products */,
+				D35188C2496143B5A40A4775 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D35188C2496143B5A40A4775 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFAAE445A1EE4469935D8CB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96104CEC3B2C4DB8A9B8475E /* key_input_tool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F736F8520CA94049B8502053 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5BC6BEB3EAE49C4B4603128 /* key_input_tool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6155D63853A14B1D94FBD3D6 /* Build configuration list for PBXNativeTarget "key_input_tool" */;
+			buildPhases = (
+				958E7652B2904ADE8D60FFE4 /* Sources */,
+				6540DA47255940E292B38265 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC5A867571FB4BF7811618DE /* PBXTargetDependency */,
+				A38ABB1B7CF6464B9B888658 /* PBXTargetDependency */,
+			);
+			name = key_input_tool;
+			productName = key_input_tool;
+			productReference = 96104CEC3B2C4DB8A9B8475E /* key_input_tool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56B44A3728A9431F852A03C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1530;
+			};
+			buildConfigurationList = B06C28EC436347D880663B7F /* Build configuration list for PBXProject "key_input_tool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB75D948562745D79A76C0DF;
+			projectDirPath = /Users/mikeyang/development_things/key_input_tool/key_input_tool;
+			projectRoot = "";
+			targets = (
+				F5B3780C9270491888759BD2 /* ALL_BUILD */,
+				C4C93135707442F8BBF15563 /* ZERO_CHECK */,
+				99229E238F0B462B85E7569B /* install */,
+				F5BC6BEB3EAE49C4B4603128 /* key_input_tool */,
+				0120DCAEF7514B89B6290F75 /* key_input_tool_autogen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15E7FC948932F1D350A79787 /* Generate CMakeFiles/key_input_tool_autogen */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/key_input_tool_autogen";
+			outputPaths = (
+				"/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/CMakeFiles/key_input_tool_autogen",
+				"/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/key_input_tool_autogen/include_Debug/ui_mainwindow.h",
+				"/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/key_input_tool_autogen/include_MinSizeRel/ui_mainwindow.h",
+				"/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/key_input_tool_autogen/include_RelWithDebInfo/ui_mainwindow.h",
+				"/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/key_input_tool_autogen/include_Release/ui_mainwindow.h",
+				"/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/key_input_tool_autogen/mocs_compilation.cpp",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build\n  /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E cmake_autogen /Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/CMakeFiles/key_input_tool_autogen.dir/AutogenInfo.json Debug\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build\n  /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E cmake_autogen /Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/CMakeFiles/key_input_tool_autogen.dir/AutogenInfo.json Release\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build\n  /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E cmake_autogen /Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/CMakeFiles/key_input_tool_autogen.dir/AutogenInfo.json MinSizeRel\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build\n  /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E cmake_autogen /Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/CMakeFiles/key_input_tool_autogen.dir/AutogenInfo.json RelWithDebInfo\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3B618E4035D5AC01EF81344D /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+				"/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/CMakeFiles/ALL_BUILD",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build\n  echo Build\\ all\\ projects\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build\n  echo Build\\ all\\ projects\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build\n  /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build\n  /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build\n  /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build\n  /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D9DB54359481215D5E0E6CCC /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+				"/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/CMakeFiles/ZERO_CHECK",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build\n  make -f /Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build\n  make -f /Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build\n  make -f /Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build\n  make -f /Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/CMakeScripts/ReRunCMake.make\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		958E7652B2904ADE8D60FFE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5848FB458F7242428BBB566F /* keyPressMac.cpp in Sources */,
+				560F51ABD725498DA588BD9F /* main.cpp in Sources */,
+				0E3A26E775F847C8A7939793 /* mainwindow.cpp in Sources */,
+				F04C294EEFD64BF094FB358F /* mocs_compilation.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		437A2EC3E6B74EFCAF06ABDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5B3780C9270491888759BD2 /* ALL_BUILD */;
+			targetProxy = 2B049E04A0954FC78F4B8C81 /* PBXContainerItemProxy */;
+		};
+		725E226E76274611A9479C1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4C93135707442F8BBF15563 /* ZERO_CHECK */;
+			targetProxy = D88D95594B4C4BF9A7401F03 /* PBXContainerItemProxy */;
+		};
+		A24283BBBDDB4D578E0B354D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5BC6BEB3EAE49C4B4603128 /* key_input_tool */;
+			targetProxy = 972065F04AA3482ABDC76304 /* PBXContainerItemProxy */;
+		};
+		A38ABB1B7CF6464B9B888658 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4C93135707442F8BBF15563 /* ZERO_CHECK */;
+			targetProxy = 5447A3C06EB4458D96CAD798 /* PBXContainerItemProxy */;
+		};
+		EC5A867571FB4BF7811618DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0120DCAEF7514B89B6290F75 /* key_input_tool_autogen */;
+			targetProxy = 3E5E209F084E4983B8EC6C06 /* PBXContainerItemProxy */;
+		};
+		F12BD8A30ABA4EE3AD180AD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4C93135707442F8BBF15563 /* ZERO_CHECK */;
+			targetProxy = DB2F93B0833F4269BD3EE424 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01DE7C8DAD17445283363289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk;
+				SYMROOT = "/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/build";
+			};
+			name = Debug;
+		};
+		1B67009F3F9F4B69BF9D46F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		27803EACD9394E97B954D77D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		31A4242F394B4104990A40F8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/MinSizeRel";
+				DEVELOPMENT_TEAM = Q7QKH6M4GJ;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_CORE_LIB,
+					QT_NO_DEBUG,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/key_input_tool_autogen/include_MinSizeRel",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/CMakeFiles/key_input_tool.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/Users/mikeyang/anaconda3/lib,
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/mikeyang/anaconda3/lib/libQt5Widgets.5.15.2.dylib,
+					"-framework",
+					ApplicationServices,
+					/Users/mikeyang/anaconda3/lib/libQt5Gui.5.15.2.dylib,
+					/Users/mikeyang/anaconda3/lib/libQt5Core.5.15.2.dylib,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = key_input_tool;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					/Users/mikeyang/anaconda3/include/qt,
+					/Users/mikeyang/anaconda3/include/qt/QtWidgets,
+					/Users/mikeyang/anaconda3/include/qt/QtGui,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/mikeyang/anaconda3/include/qt/QtCore,
+					"/Users/mikeyang/anaconda3/./mkspecs/macx-clang",
+					"$(inherited)",
+				);
+				TARGET_TEMP_DIR = "/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/build/key_input_tool.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		41EE6E2AAE3C427CBE5336D4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		426A31D97B824E729CA9CAEB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/build";
+			};
+			name = MinSizeRel;
+		};
+		5E61D768562444808FBD72AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = key_input_tool_autogen;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		6129BAB7D4E0435591E72434 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		639CB92908104E8CBA071457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/build";
+			};
+			name = Release;
+		};
+		64AC9E3E359B4712AA802805 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		6D5C97BF3A34488088E4D13A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		767306E0299647549D8DC093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/Debug";
+				DEVELOPMENT_TEAM = Q7QKH6M4GJ;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_CORE_LIB,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/key_input_tool_autogen/include_Debug",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/CMakeFiles/key_input_tool.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/Users/mikeyang/anaconda3/lib,
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"'-std=gnu++17'",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/mikeyang/anaconda3/lib/libQt5Widgets.5.15.2.dylib,
+					"-framework",
+					ApplicationServices,
+					/Users/mikeyang/anaconda3/lib/libQt5Gui.5.15.2.dylib,
+					/Users/mikeyang/anaconda3/lib/libQt5Core.5.15.2.dylib,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = key_input_tool;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					/Users/mikeyang/anaconda3/include/qt,
+					/Users/mikeyang/anaconda3/include/qt/QtWidgets,
+					/Users/mikeyang/anaconda3/include/qt/QtGui,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/mikeyang/anaconda3/include/qt/QtCore,
+					"/Users/mikeyang/anaconda3/./mkspecs/macx-clang",
+					"$(inherited)",
+				);
+				TARGET_TEMP_DIR = "/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/build/key_input_tool.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		785D1441E939420391EDC2C8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = key_input_tool_autogen;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		7D5E6044B96A4C408322D448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = key_input_tool_autogen;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		8076727A89EA461EB348843C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		92A765EC2A204D62A01B3872 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		93D9F52BCED244B3B106E3CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		9A4F6C204ADA44349DAF63C0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = key_input_tool_autogen;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		BEB3DF00D73643C3901CC93F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/RelWithDebInfo";
+				DEVELOPMENT_TEAM = Q7QKH6M4GJ;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_CORE_LIB,
+					QT_NO_DEBUG,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/key_input_tool_autogen/include_RelWithDebInfo",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/CMakeFiles/key_input_tool.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/Users/mikeyang/anaconda3/lib,
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/mikeyang/anaconda3/lib/libQt5Widgets.5.15.2.dylib,
+					"-framework",
+					ApplicationServices,
+					/Users/mikeyang/anaconda3/lib/libQt5Gui.5.15.2.dylib,
+					/Users/mikeyang/anaconda3/lib/libQt5Core.5.15.2.dylib,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = key_input_tool;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					/Users/mikeyang/anaconda3/include/qt,
+					/Users/mikeyang/anaconda3/include/qt/QtWidgets,
+					/Users/mikeyang/anaconda3/include/qt/QtGui,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/mikeyang/anaconda3/include/qt/QtCore,
+					"/Users/mikeyang/anaconda3/./mkspecs/macx-clang",
+					"$(inherited)",
+				);
+				TARGET_TEMP_DIR = "/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/build/key_input_tool.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		CF1E051D306C4D9DB9C13C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		D825966B84054DC9A57004A3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		E3BFBAB031F9419EB0A65CB9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		E44A39EF58A64C3E86A2808A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = " $(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		E55A6789DBFD46298A9D7089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = arm64;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/Release";
+				DEVELOPMENT_TEAM = Q7QKH6M4GJ;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					QT_WIDGETS_LIB,
+					QT_GUI_LIB,
+					QT_CORE_LIB,
+					QT_NO_DEBUG,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/key_input_tool_autogen/include_Release",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/CMakeFiles/key_input_tool.dir/Info.plist";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					/Users/mikeyang/anaconda3/lib,
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"'-std=gnu++17'",
+					"-fPIC",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					/Users/mikeyang/anaconda3/lib/libQt5Widgets.5.15.2.dylib,
+					"-framework",
+					ApplicationServices,
+					/Users/mikeyang/anaconda3/lib/libQt5Gui.5.15.2.dylib,
+					/Users/mikeyang/anaconda3/lib/libQt5Core.5.15.2.dylib,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = key_input_tool;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SECTORDER_FLAGS = "";
+				SYSTEM_HEADER_SEARCH_PATHS = (
+					/Users/mikeyang/anaconda3/include/qt,
+					/Users/mikeyang/anaconda3/include/qt/QtWidgets,
+					/Users/mikeyang/anaconda3/include/qt/QtGui,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Users/mikeyang/anaconda3/include/qt/QtCore,
+					"/Users/mikeyang/anaconda3/./mkspecs/macx-clang",
+					"$(inherited)",
+				);
+				TARGET_TEMP_DIR = "/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/build/key_input_tool.build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C839363872649648CEDAAAB /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B67009F3F9F4B69BF9D46F5 /* Debug */,
+				8076727A89EA461EB348843C /* Release */,
+				92A765EC2A204D62A01B3872 /* MinSizeRel */,
+				41EE6E2AAE3C427CBE5336D4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		472C874F76884CAFB29B2F37 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1E051D306C4D9DB9C13C95 /* Debug */,
+				6D5C97BF3A34488088E4D13A /* Release */,
+				E3BFBAB031F9419EB0A65CB9 /* MinSizeRel */,
+				27803EACD9394E97B954D77D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		519588FE9E574CCAA7A460FF /* Build configuration list for PBXAggregateTarget "key_input_tool_autogen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E61D768562444808FBD72AF /* Debug */,
+				7D5E6044B96A4C408322D448 /* Release */,
+				9A4F6C204ADA44349DAF63C0 /* MinSizeRel */,
+				785D1441E939420391EDC2C8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6155D63853A14B1D94FBD3D6 /* Build configuration list for PBXNativeTarget "key_input_tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767306E0299647549D8DC093 /* Debug */,
+				E55A6789DBFD46298A9D7089 /* Release */,
+				31A4242F394B4104990A40F8 /* MinSizeRel */,
+				BEB3DF00D73643C3901CC93F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		89A36262AA6B4927B7EDA63C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D9F52BCED244B3B106E3CC /* Debug */,
+				6129BAB7D4E0435591E72434 /* Release */,
+				64AC9E3E359B4712AA802805 /* MinSizeRel */,
+				E44A39EF58A64C3E86A2808A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B06C28EC436347D880663B7F /* Build configuration list for PBXProject "key_input_tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01DE7C8DAD17445283363289 /* Debug */,
+				639CB92908104E8CBA071457 /* Release */,
+				426A31D97B824E729CA9CAEB /* MinSizeRel */,
+				D825966B84054DC9A57004A3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56B44A3728A9431F852A03C9 /* Project object */;
+}

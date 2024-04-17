@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+Target 'key_input_tool' in project 'key_input_tool'
+➜ Explicit dependency on target 'key_input_tool_autogen' in project 'key_input_tool'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'key_input_tool'
+Target 'key_input_tool_autogen' in project 'key_input_tool'
+➜ Explicit dependency on target 'ZERO_CHECK' in project 'key_input_tool'
+Target 'ZERO_CHECK' in project 'key_input_tool' (no dependencies)

@@ -1,0 +1,5 @@
+/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/CMakeFiles/key_input_tool.dir
+/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/CMakeFiles/install.dir
+/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/CMakeFiles/key_input_tool_autogen.dir
+/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/CMakeFiles/ALL_BUILD.dir
+/Users/mikeyang/development_things/key_input_tool/key_input_tool/xcode-build/CMakeFiles/ZERO_CHECK.dir
