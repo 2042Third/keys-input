@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Get the directory of the script
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+# Set the path to your application bundle
+APP_BUNDLE="$SCRIPT_DIR/key_input_tool.app"
+
+# Set the path to your application's binary executable
+APP_BINARY="$APP_BUNDLE/Contents/MacOS/key_input_tool"
+
+# Set any necessary environment variables
+export DYLD_LIBRARY_PATH="$DYLD_LIBRARY_PATH:$APP_BUNDLE/Contents/Frameworks"
+
+# Launch the application with the necessary environment variables
+/usr/bin/env QT_EVENT_DISPATCHER_CORE_FOUNDATION=1 QT_MAC_DISABLE_FOREGROUND_APPLICATION_TRANSFORM=1 "$APP_BINARY" "$@"

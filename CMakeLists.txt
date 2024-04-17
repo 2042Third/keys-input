@@ -12,16 +12,15 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets LinguistTools)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets LinguistTools)
 
-set(TS_FILES key_input_tool_en_US.ts)
+#set(TS_FILES key_input_tool_en_US.ts)
 
 set(PROJECT_SOURCES
         main.cpp
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
-        ${TS_FILES}
-    keyPress/keyPressMac.cpp
-    keyPress/keyPressMac.h
+#        ${TS_FILES}
+
 )
 
 # Add keyPressWin.cpp and keyPressWin.h to the project if is windows

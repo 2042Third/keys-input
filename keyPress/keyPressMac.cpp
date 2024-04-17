@@ -12,14 +12,14 @@ void KeyPress::simulateKeyPresses(const QString &input)
   for (int i = 0; i < input.length(); ++i) {
     UniChar character = input[i].unicode();
 
-    usleep(1000);
+    usleep(10);
     CGEventSourceRef source = CGEventSourceCreate(kCGEventSourceStateHIDSystemState);
     CGEventRef event = CGEventCreateKeyboardEvent(source, 0, true);
     CGEventKeyboardSetUnicodeString(event, 1, &character);
     CGEventPost(kCGSessionEventTap, event);
     CFRelease(event);
     CFRelease(source);
-    usleep(1000);
+    usleep(10);
 
     source = CGEventSourceCreate(kCGEventSourceStateHIDSystemState);
     event = CGEventCreateKeyboardEvent(source, 0, false);
@@ -27,7 +27,7 @@ void KeyPress::simulateKeyPresses(const QString &input)
     CGEventPost(kCGSessionEventTap, event);
     CFRelease(event);
     CFRelease(source);
-    usleep(1000);
+    usleep(10);
 
   }
 }
